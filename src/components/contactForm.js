@@ -1,71 +1,35 @@
-import React, {useState} from 'react'
-import {Form, Label, Input, FormGroup, Button} from 'reactstrap'
-import axios from 'axios'
+import React from 'react'
+import emailjs from 'emailjs-com'
+
 
 const ContactForm = () => {
 
+            function sendEmail(e) {
+    e.preventDefault();
 
-            constructor() {
-    super();
-    this.state = {
-      name: "",
-      email: "",
-      message: "",
-      status: "Submit"
-    };   
-            }
-            
-            handleChange(e) {
-    const field = e.target.id;
-    if (field === "name") {
-      this.setState({ name: e.target.value });
-    } else if (field === "email") {
-      this.setState({ email: e.target.value });
-    } else if (field === "message") {
-      this.setState({ message: e.target.value });
-    }
+    emailjs.sendForm('service_rlw04v5', 'template_ovrldoe', e.target, 'user_cEmXau168ofewFbfWCDTf')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
   }
 
-  handleSubmit(e) {
-    e.preventDefault();  
-    this.setState({ status: "Sending" });  
-    axios({
-      method: "POST",
-      url: "http://localhost:5000/contact",
-      data: this.state,
-    }).then((response) => {
-      if (response.data.status === "sent") {
-        alert("Message Sent");
-        this.setState({ name: "", email: "", message: "", status: "Submit" });
-      } else if (response.data.status === "failed") {
-        alert("Message Failed");
-      }
-    });
-  }
-
-            
-            return(
-            <div>
-                        <Form>
-                                    <FormGroup>
-
-                                    <Label>Name</Label>
-                                    <Input type='text' id='name' />
-
-                                    <Label for='email'>Email</Label>
-                                    <Input type='email' name='email' id='contactEmail' />
-
-                                    <Label>Subject</Label>
-                                    <Input type='text' id='subject' />
-
-                                    <Label>Message</Label>
-                                    <Input type='textarea' id='messgae' />
-
-                                    </FormGroup>
-                                    <Button>Submit</Button>
-                        </Form>
-            </div>
-            )
+  return (
+    <form className="contact-form" onSubmit={sendEmail}>
+      <input type="hidden" name="contact_number" />
+      <label>Name</label>
+      <input type="text" name="name" />
+      <label>Email</label>
+      <input type="email" name="email" />
+      <label>Subject</label>
+      <input type="text" name="subject" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
+  );
 }
 
 export default ContactForm
