@@ -1,0 +1,29 @@
+.nav {
+ display: flex;
+ align-items: flex-end;
+ justify-content: space-around;
+ height: 100%;
+ background-color: rgba(199, 222, 128, 1);
+ font-family: "Open Sans", sans-serif;
+}
+.nav-container {
+ padding-top: 0px;
+ height: 7rem;
+ width: 100%;
+}
+
+ul {
+ list-style-type: none;
+ margin-top: 0px;
+ padding-left: 0px;
+ padding-bottom: 20px;
+}
+a {
+ text-decoration: none;
+ color: rgba(4, 48, 171, 1);
+}
+.main-heading {
+ font-family: "Comfortaa", cursive;
+ font-weight: bold;
+ font-size: 35px;
+}

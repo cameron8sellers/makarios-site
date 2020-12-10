@@ -1,11 +1,18 @@
 import React from 'react'
-import ContactFrom from './contactForm'
+import { Nav } from 'reactstrap'
+import contactForm from './contactForm'
+import NavBar from './navBar'
+
+
+
+
+
 
 const landingPage = () => {
             return(
-                        <div>
-                                    <ContactFrom />
-                        </div>
+                <div>
+                       <NavBar />
+                </div>
             )
 }
 
