@@ -17,7 +17,7 @@ const landingPage = () => {
             return(
                 <div>
                        <NavBar />
-                    <div hero-img-container>
+                    <div className='hero-img-container'>
                        <img src={heroImg} id='heroImg' alt={heroImg} />
                        <Card className="hero-card">
                            <CardTitle className='hero-card-title'>Where Life is a Blessing</CardTitle>
