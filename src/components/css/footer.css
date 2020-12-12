@@ -1,16 +1,40 @@
 .footer-container {
  display: flex;
  flex-direction: row;
+ justify-content: space-around;
  background-color: rgb(199, 222, 128);
 }
-
+.contact-form-header {
+ font-family: "Playfair Display", serif;
+}
 .contact-form-container {
  width: 25%;
- padding: 5%;
  padding-top: 1%;
 }
 
 .team-container {
  width: 25%;
- margin-left: 10%;
+}
+
+.location-list-header {
+ font-family: "Playfair Display", serif;
+}
+.location-list {
+ font-family: "Playfair Display", serif;
+}
+.team-header {
+ font-family: "Playfair Display", serif;
+}
+.team-content {
+ font-family: "Playfair Display", serif;
+}
+.learn-button {
+ background-color: rgb(38, 144, 171);
+ border: none;
+ border-radius: 1pc;
+ height: 15%;
+ width: 40%;
+ font-size: 1pc;
+ font-family: "Playfair Display", serif;
+ font-weight: 700;
 }
