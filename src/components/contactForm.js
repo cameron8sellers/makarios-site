@@ -1,6 +1,6 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
-
+import './css/contact.css'
 
 const ContactForm = () => {
 
@@ -19,15 +19,15 @@ const ContactForm = () => {
   return (
     <form className="contact-form" onSubmit={sendEmail}>
       <input type="hidden" name="contact_number" />
-      <label>Name</label>
+      <label className='label'>Name</label>
       <input type="text" name="name" />
-      <label>Email</label>
+      <label className='label'>Email</label>
       <input type="email" name="email" />
-      <label>Subject</label>
+      <label className='label'>Subject</label>
       <input type="text" name="subject" />
-      <label>Message</label>
+      <label className='label'>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input type="submit" value="Send" className='submit-button'/>
     </form>
   );
 }

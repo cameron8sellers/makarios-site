@@ -1,0 +1,26 @@
+.contact-form {
+ display: flex;
+ flex-direction: column;
+}
+.label {
+ font-family: "Open Sans", sans-serif;
+ text-align: left;
+}
+input,
+textarea {
+ margin: 1%;
+ border: none;
+ border-radius: 6px;
+}
+.submit-button {
+ background-color: rgb(38, 144, 171);
+ border: none;
+ border-radius: 1pc;
+ height: 15%;
+ width: 40%;
+ font-size: 1pc;
+ font-family: "Playfair Display", serif;
+ font-weight: 700;
+ margin: 1pc;
+ margin-left: 0px;
+}
