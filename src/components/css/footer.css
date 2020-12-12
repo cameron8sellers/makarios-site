@@ -3,6 +3,7 @@
  flex-direction: row;
  justify-content: space-around;
  background-color: rgb(199, 222, 128);
+ height: 15%;
 }
 .contact-form-header {
  font-family: "Playfair Display", serif;

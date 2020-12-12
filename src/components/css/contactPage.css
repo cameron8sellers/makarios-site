@@ -1,0 +1,29 @@
+.contact-head {
+ font-family: "Playfair Display", serif;
+}
+.contactPage-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.contact-form-page {
+ display: flex;
+ flex-direction: column;
+ align-content: space-around;
+ margin-top: 5%;
+}
+.label-page {
+ text-align: left;
+ font-family: "Playfair Display", serif;
+}
+
+.input-page,
+.text-area-page {
+ border: 1px solid black;
+ width: 50%;
+ align-content: center;
+}
+
+.submit-button-page {
+ width: 25%;
+}

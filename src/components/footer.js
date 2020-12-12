@@ -28,7 +28,7 @@ const Footer = () => {
                 <h1 className='team-header'>Join Our Team</h1>
                 <p className='team-content'>We’re as dedicated to our team members 
 as we are to our residents. 
-Learn more about working at Sunrise.</p>
+Learn more about working at Makarios.</p>
                 <Button className='learn-button'>Learn More</Button>
             </div>
             

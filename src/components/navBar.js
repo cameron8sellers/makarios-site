@@ -24,7 +24,7 @@ const NavBar = () => {
                             </NavItem>
 
                             <NavItem>
-                                <NavLink href='#' className='nav-link'>Contact</NavLink>
+                                <NavLink href='/contact' className='nav-link'>Contact</NavLink>
                             </NavItem>
                             
                             <NavItem>

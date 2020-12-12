@@ -1,6 +1,6 @@
 import './App.css';
 import landingPage from './components/landingPage'
-
+import ContactPage from './components/contactPage'
 
 import {Route} from 'react-router-dom'
 
@@ -12,6 +12,7 @@ function App() {
       
 
       <Route exact path='/' component={landingPage} />
+      <Route path='/contact' component={ContactPage} />
 
 
 
