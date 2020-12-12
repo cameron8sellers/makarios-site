@@ -1,0 +1,16 @@
+.footer-container {
+ display: flex;
+ flex-direction: row;
+ background-color: rgb(199, 222, 128);
+}
+
+.contact-form-container {
+ width: 25%;
+ padding: 5%;
+ padding-top: 1%;
+}
+
+.team-container {
+ width: 25%;
+ margin-left: 10%;
+}

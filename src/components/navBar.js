@@ -12,23 +12,23 @@ const NavBar = () => {
                             <NavItem className='main-heading'><NavLink href='/'>Makarios Assisted Livivng</NavLink></NavItem>
 
                             <NavItem>
-                                <NavLink href='#'>Information</NavLink>
+                                <NavLink href='#' className='nav-link'>Information</NavLink>
                             </NavItem>
 
                             <NavItem>
-                                <NavLink href='#'>Locations</NavLink>
+                                <NavLink href='#' className='nav-link'>Locations</NavLink>
                             </NavItem>
 
                             <NavItem>
-                                <NavLink href='#'>Services</NavLink>
+                                <NavLink href='#' className='nav-link'>Services</NavLink>
                             </NavItem>
 
                             <NavItem>
-                                <NavLink href='#'>Contact</NavLink>
+                                <NavLink href='#' className='nav-link'>Contact</NavLink>
                             </NavItem>
                             
                             <NavItem>
-                                <NavLink href='#'>Gallery</NavLink>
+                                <NavLink href='#' className='nav-link'>Gallery</NavLink>
                             </NavItem>
 
                         </Nav>        
