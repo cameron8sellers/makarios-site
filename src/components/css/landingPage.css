@@ -140,3 +140,25 @@
  margin-top: 0px;
  font-size: 90%;
 }
+
+@media (max-width: 765px) {
+ .hero-card {
+  display: none;
+ }
+ .hero-img-container {
+  margin-top: 10%;
+ }
+ #goal-card-container,
+ .cardTitle {
+  font-size: 70%;
+ }
+ h1 {
+  font-size: 100%;
+ }
+ .serv-test-card-title {
+  font-size: 100%;
+ }
+ .goalImg {
+  height: 50%;
+ }
+}

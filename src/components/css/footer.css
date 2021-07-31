@@ -39,3 +39,17 @@
  font-family: "Playfair Display", serif;
  font-weight: 700;
 }
+
+@media (max-width: 765px) {
+ .location-list,
+ .location-list-header,
+ .team-container {
+  display: none;
+ }
+ .footer-container {
+  justify-content: center;
+ }
+ .contact-form-container {
+  width: 75%;
+ }
+}
