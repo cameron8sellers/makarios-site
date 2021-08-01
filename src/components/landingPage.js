@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardImg, CardTitle, CardBody, Button } from "reactstrap";
+import { Card, CardImg, CardTitle, CardBody } from "reactstrap";
 import "./css/landingPage.css";
 import NavBar from "./navBar";
 import Footer from "./footer";
@@ -16,6 +16,7 @@ function LandingPage() {
     <img
      src="https://res.cloudinary.com/drcgo7zqn/image/upload/v1627845147/Makarios/pexels-matthias-zomer-339620_tn7uqw.jpg"
      id="heroImg"
+     alt="none"
     />
     <Card className="hero-card">
      <CardTitle className="hero-card-title">Where Life is a Blessing</CardTitle>
@@ -76,26 +77,31 @@ function LandingPage() {
      src="https://res.cloudinary.com/drcgo7zqn/image/upload/v1627843934/Makarios/pexels-tristan-le-1642883_adk68k.jpg"
      id="f-img-1"
      className="facility-img-main"
+     alt=""
     />
     <img
      src="https://res.cloudinary.com/drcgo7zqn/image/upload/v1627843942/Makarios/pexels-mike-126271_iqmnqc.jpg"
      id="f-img-2"
      className="facility-img"
+     alt=""
     />
     <img
      src="https://res.cloudinary.com/drcgo7zqn/image/upload/v1627843926/Makarios/markus-spiske-g5ZIXjzRGds-unsplash_q3uhd5.jpg"
      id="f-img-3"
      className="facility-img"
+     alt=""
     />
     <img
      src="https://res.cloudinary.com/drcgo7zqn/image/upload/v1627843914/Makarios/pexels-pixabay-257360_ntniyr.jpg"
      id="f-img-4"
      className="facility-img"
+     alt=""
     />
     <img
      src="https://res.cloudinary.com/drcgo7zqn/image/upload/v1627843911/Makarios/pexels-pixabay-271624_cftyb0.jpg"
      id="f-img-5"
      className="facility-img"
+     alt=""
     />
     <h1 className="see-more-link">
      <a href="/photos" className="nav-link">
