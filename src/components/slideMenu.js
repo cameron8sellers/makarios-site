@@ -7,9 +7,9 @@ const easeSlow = css`
 
 const menuBtn = css`
  position: absolute;
- z-index: 2;
- right: 35px;
- top: 35px;
+ z-index: 3;
+ right: 20px;
+ top: 20px;
  cursor: pointer;
  ${easeSlow};
  &.closer {
@@ -21,10 +21,10 @@ const btnLine = css`
  width: 28px;
  height: 4px;
  margin: 0 0 5px 0;
- background-color: rgb(0, 44, 179);
+ background-color: rgb(38, 144, 171);
  ${easeSlow};
  &.closer {
-  background-color: rgb(0, 44, 179);
+  background-color: rgb(38, 144, 171);
   &:nth-child(1) {
    transform: rotate(45deg) translate(4px, 0px);
    width: 20px;
@@ -44,8 +44,8 @@ const menuOverlay = css`
  position: fixed;
  top: 0;
  right: 0;
- opacity: 0.8;
- background-color: white;
+ opacity: 1;
+ background-color: rgb(109, 171, 21);
  height: 80vh;
  width: 40vw;
  transform: translateX(100%);
@@ -62,7 +62,7 @@ const menuOverlay = css`
   a {
    height: 30px;
    text-decoration: none;
-   color: rgb(0, 44, 179);
+   color: rgb(38, 144, 171);
    opacity: 1;
    cursor: pointer;
    transition: all 150ms ease-in-out;
@@ -101,7 +101,6 @@ class Menu extends React.Component {
       <a href="/">Home</a>
 
       <a href="/contact">Contact Us</a>
-      <a href="/plans">Mobile Plans</a>
      </nav>
     </div>
    </React.Fragment>

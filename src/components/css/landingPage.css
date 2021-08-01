@@ -7,27 +7,32 @@
 .hero-img-container {
  position: relative;
  display: grid;
- grid-template-columns: 50%, 50%;
+ grid-template-columns: 50%;
  grid-template-rows: 1fr;
 }
 .hero-card {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
  grid-column: 2/3;
  grid-row: 1/2;
  height: 30%;
- width: 75%;
- margin-top: 15%;
- margin-right: 15%;
+ width: 73%;
+ margin-top: 20%;
+ margin-left: 20%;
  border-radius: 3pc;
  z-index: 2;
  font-family: "Playfair Display", serif;
  background-color: rgba(199, 222, 128, 0.5);
- padding: 3pc;
- color: rgb(4, 48, 171);
+ padding: 0.5pc;
+ color: rgb(171, 93, 21);
  font-weight: 500;
 }
 .hero-card-title {
- font-size: 150%;
+ font-size: 125%;
  text-align: left;
+ font-weight: 700;
 }
 .hero-card-body {
  font-size: 100%;
@@ -36,25 +41,16 @@
 .hero-card-button-container {
  display: flex;
 }
-.hero-card-button {
- margin: 1pc;
- width: 45%;
- background-color: rgb(109, 171, 21);
- border: none;
- border-radius: 1pc;
- height: 2pc;
- font-family: "Playfair Display", serif;
- font-weight: 900;
- color: rgb(4, 48, 171);
- letter-spacing: 3px;
-}
+
 #goal-card-container {
  display: flex;
  flex-direction: row;
  padding-left: 10%;
+ align-items: center;
 }
 .goalImg {
- width: 50%;
+ width: 45%;
+ height: 45%;
 }
 .title-body-container {
  margin: 10%;
@@ -146,11 +142,13 @@
   display: none;
  }
  .hero-img-container {
-  margin-top: 10%;
+  margin-top: 15%;
  }
- #goal-card-container,
+ #goal-card-container {
+  font-size: 100%;
+ }
  .cardTitle {
-  font-size: 70%;
+  font-size: 1.5pc;
  }
  h1 {
   font-size: 100%;
@@ -160,5 +158,25 @@
  }
  .goalImg {
   height: 50%;
+  padding-left: 25%;
+ }
+ #goal-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 0;
+ }
+ .facilities-div {
+  display: flex;
+  flex-direction: column;
+ }
+ #f-img-2,
+ #f-img-3,
+ #f-img-4,
+ #f-img-5 {
+  display: none;
+ }
+ .see-more-link {
+  margin: 0;
  }
 }

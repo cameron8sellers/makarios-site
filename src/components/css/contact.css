@@ -24,3 +24,10 @@ textarea {
  margin: 1pc;
  margin-left: 0px;
 }
+
+@media (max-width: 765px) {
+ .submit-button {
+  margin: 1pc;
+  margin-left: 2pc;
+ }
+}

@@ -7,13 +7,7 @@ const NavBar = () => {
   <div className="nav-container">
    <Nav className="nav">
     <NavItem className="main-heading">
-     <NavLink href="/"></NavLink>Makarios Assisted Livivng{" "}
-    </NavItem>
-
-    <NavItem>
-     <NavLink href="#" className="nav-link">
-      Information
-     </NavLink>
+     <NavLink href="/"></NavLink>Makarios Assisted Livivng
     </NavItem>
 
     <NavItem>
@@ -35,8 +29,8 @@ const NavBar = () => {
     </NavItem>
 
     <NavItem>
-     <NavLink href="#" className="nav-link">
-      Gallery
+     <NavLink href="/facilities" className="nav-link">
+      Facilities
      </NavLink>
     </NavItem>
    </Nav>

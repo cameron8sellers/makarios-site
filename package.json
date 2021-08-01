@@ -9,6 +9,8 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
     "axios": "^0.21.0",
+    "carousel": "^0.0.3",
+    "elastic": "^0.1.10",
     "emailjs-com": "^2.6.4",
     "emotion": "^11.0.0",
     "react": "^17.0.1",

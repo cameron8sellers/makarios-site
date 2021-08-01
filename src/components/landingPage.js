@@ -23,10 +23,6 @@ function LandingPage() {
     <Card className="hero-card">
      <CardTitle className="hero-card-title">Where Life is a Blessing</CardTitle>
      <CardBody className="hero-card-body">Family Owned Since 1992</CardBody>
-     <div className="hero-card-button-container">
-      <Button className="hero-card-button">Why Us?</Button>
-      <Button className="hero-card-button">Contact</Button>
-     </div>
     </Card>
    </div>
    <div>
