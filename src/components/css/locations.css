@@ -1,0 +1,15 @@
+.location-page-header {
+ font-family: "Playfair Display", serif;
+}
+.location-page-item {
+ font-family: "Playfair Display", serif;
+}
+
+.location-page-list {
+ font-family: "Playfair Display", serif;
+ line-height: 17vmin;
+}
+.location-page-container {
+ margin-top: 20%;
+ margin-bottom: 25%;
+}

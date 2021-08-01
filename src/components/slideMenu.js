@@ -99,7 +99,9 @@ class Menu extends React.Component {
     <div className={`${menuOverlay} ${isMenuOpen ? "show" : null}`}>
      <nav>
       <a href="/">Home</a>
-
+      <a href="/services">Services</a>
+      <a href="/photos">Photos</a>
+      <a href="/locations">Locations</a>
       <a href="/contact">Contact Us</a>
      </nav>
     </div>

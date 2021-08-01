@@ -24,7 +24,7 @@
  border-radius: 3pc;
  z-index: 2;
  font-family: "Playfair Display", serif;
- background-color: rgba(199, 222, 128, 0.5);
+ background-color: rgba(199, 222, 128);
  padding: 0.5pc;
  color: rgb(171, 93, 21);
  font-weight: 500;
@@ -157,8 +157,7 @@
   font-size: 100%;
  }
  .goalImg {
-  height: 50%;
-  padding-left: 25%;
+  display: none;
  }
  #goal-card-container {
   display: flex;

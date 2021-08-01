@@ -11,13 +11,13 @@ const NavBar = () => {
     </NavItem>
 
     <NavItem>
-     <NavLink href="#" className="nav-link">
+     <NavLink href="/locations" className="nav-link">
       Locations
      </NavLink>
     </NavItem>
 
     <NavItem>
-     <NavLink href="#" className="nav-link">
+     <NavLink href="/services" className="nav-link">
       Services
      </NavLink>
     </NavItem>
@@ -29,8 +29,8 @@ const NavBar = () => {
     </NavItem>
 
     <NavItem>
-     <NavLink href="/facilities" className="nav-link">
-      Facilities
+     <NavLink href="/photos" className="nav-link">
+      Photos
      </NavLink>
     </NavItem>
    </Nav>

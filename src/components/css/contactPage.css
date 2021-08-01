@@ -4,13 +4,15 @@
 .contactPage-container {
  display: flex;
  flex-direction: column;
- justify-content: center;
+ justify-content: space-around;
 }
 .contact-form-page {
  display: flex;
  flex-direction: column;
  align-content: space-around;
+ align-items: center;
  margin-top: 5%;
+ margin-bottom: 5%;
 }
 .label-page {
  text-align: left;

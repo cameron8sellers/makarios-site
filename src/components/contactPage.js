@@ -50,6 +50,7 @@ function ContactPage() {
      <input type="submit" value="Send" className="submit-button-page" />
     </form>
    </div>
+   <Footer />
   </div>
  );
 }
