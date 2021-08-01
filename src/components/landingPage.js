@@ -40,7 +40,7 @@ function LandingPage() {
     </Card>
    </div>
    <div className="info-divider">
-    <h1>Call 707-707-3440</h1>
+    <h1>Call 720-404-1445</h1>
     <h1>Schedule a Tour</h1>
     <h1>Questions?</h1>
    </div>
