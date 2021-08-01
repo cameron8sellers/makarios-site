@@ -49,8 +49,9 @@ function ContactPage() {
      <textarea name="message" className="text-area-page" />
      <input type="submit" value="Send" className="submit-button-page" />
     </form>
+    <h1 className="contact-head">720-404-1445</h1>
    </div>
-   <Footer />
+   {isMobile ? <noscript /> : <Footer />}
   </div>
  );
 }

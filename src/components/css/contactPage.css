@@ -29,3 +29,9 @@
 .submit-button-page {
  width: 25%;
 }
+
+@media (max-width: 765px) {
+ .contactPage-container {
+  margin-top: 20vmin;
+ }
+}
